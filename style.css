@@ -1,0 +1,152 @@
+html { -webkit-text-size-adjust: none; }
+
+body {
+width: 100%;
+font-family: 'Lora', serif;
+font-size: 100%;
+color: #111;
+background: #ede0ce;
+}
+  
+div {
+overflow: hidden;
+}
+
+.container {
+width: 665px;
+margin: 0 auto;
+padding: 2em 0 10em 0;
+}
+
+.content {
+margin: 0 auto;
+}  
+
+/*a {
+text-decoration: none;
+border-bottom: 1px dotted #d27f37;
+color: #a63100;
+}*/ 
+
+p.new::first-letter { 
+font-size: 130%;
+color: #a63100;
+}  
+  
+header {
+padding-bottom: 3.5em;
+border-bottom: 1px dotted graytext;
+text-align: center;
+}
+  
+.title {
+font-family: 'Playfair Display', serif;
+} 
+
+.title h1 {
+font-size: 2.8em;
+font-weight: 400;
+padding-top: 1em;
+}
+
+.title h2 {
+font-weight: 400;
+font-size: 1.2em;
+line-height: 2.5em;
+padding-bottom: 1.5em;
+}
+
+li {
+padding: 0.4em;
+font-size: 1.05em;
+color: #a63100;
+}
+
+.story {
+  margin: 1em 0;
+}
+.story p {
+  padding: 0.5em 0;
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+.chapter {
+  text-align: center;
+  padding: 3em 0 1em 0;
+}
+.chapter h1 {
+font-weight: 200;
+font-style: italic;
+line-height: 1.7em;
+color: graytext;
+}
+
+.chapter h2 {
+font-size: 1.5em;
+}
+
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 670px) {
+.container {
+  width: 90%;
+  }
+.story p {
+  padding: 0.5em 0;
+  font-size: 1.15em;
+  line-height: 1.6em;
+}   
+.title h1 {
+   font-weight: 600;
+   font-size: 1.55em;
+   line-height: 1.3em;
+}
+.title h2 {
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 2.5em;
+  padding-bottom: 1em;
+  color: graytext;
+}  
+li {
+font-size: 1em;  
+}
+}    
+
+ 
+@media only screen 
+and (min-device-width : 670px) 
+and (max-device-width : 1024px) {
+.container {
+  width: 665px; 
+  }
+.story p {
+  padding: 0.5em 0;
+  font-size: 1.375em;
+  line-height: 1.7em;
+}   
+.title h1 {
+  font-size: 3.3em;
+  font-weight: 400;
+  padding-top: 1em;
+}
+.title h2 {
+  font-weight: 400;
+  font-size: 1.4em;
+  line-height: 2.5em;
+  padding-bottom: 1.5em;
+  }
+li {
+font-size: 1.3em;  
+}
+.chapter h1 {
+font-size: 1.2em;
+line-height: 1.6em;
+font-weight: 200;
+font-style: italic;
+color: graytext;
+}
+.chapter h2 {
+font-size: 1.55em;
+}
