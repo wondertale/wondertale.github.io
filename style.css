@@ -56,6 +56,10 @@ line-height: 2.5em;
 padding-bottom: 1.5em;
 }
 
+ol {
+list-style: none;
+}
+
 li {
 padding: 0.4em;
 font-size: 1.05em;
@@ -69,6 +73,12 @@ color: #a63100;
   padding: 0.5em 0;
   font-size: 1.2em;
   line-height: 1.8em;
+   text-align: justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
 }
 
 .chapter {
